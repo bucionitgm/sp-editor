@@ -38,3 +38,15 @@ Now you can open a SharePoint site, open devtools and select SharePoint tab. The
 To inspect the Extension, you can open the extension devtool by right clicking and selecting **Inspect** and you can see the dom/console/sources/etc of the extension.
 
 ![](repo-images/edgeinspect.png)
+
+## VS Code Extension Analysis
+
+If you're interested in converting this browser extension to a VS Code extension, please refer to the following documentation:
+
+- **[VS Code Extension Feasibility Analysis](VSCODE_EXTENSION_ANALYSIS.md)** - Comprehensive analysis of converting SP Editor to VS Code extension, including challenges, architecture differences, and recommended approaches.
+
+- **[Implementation Guide](VSCODE_IMPLEMENTATION_GUIDE.md)** - Technical implementation details, code examples, and API mappings for building a VS Code extension.
+
+- **[Browser vs VS Code Comparison](BROWSER_VS_VSCODE_COMPARISON.md)** - Detailed feature comparison, use case scenarios, and recommendations on the best approach.
+
+**TL;DR**: The analysis recommends creating a **complementary VS Code extension** that focuses on SharePoint development workflows while maintaining the browser extension for live page interaction and troubleshooting. Both tools serve different purposes and provide the best user experience when used together.
